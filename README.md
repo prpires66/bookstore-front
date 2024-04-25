@@ -54,7 +54,7 @@ npm install
 ```
 > 3. **Configuração do ambiente:** Antes de executar a aplicação, certifique-se de configurar as seguintes variáveis de ambiente:
 
-> - **URL_API:** URL do endpoint da API (Backend).
+> - **URL_API:** URL do endpoint da API (Back-end).
 
 Você pode definir essas variáveis de ambiente em um arquivo `.env` na raiz do projeto ou configurá-las diretamente no ambiente de execução, dependendo das suas preferências e ambiente de desenvolvimento.
 
@@ -87,7 +87,7 @@ Para implantar esta aplicação, você pode considerar duas abordagens populares
 ## 📄 Licença
 ![License: MIT](https://img.shields.io/github/license/prpires66/nlw-esports?style=for-the-badge)
 
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE.md](https://github.com/prpires66/bookstore-front/blob/main/README.md) para obter mais detalhes.
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE.md](https://github.com/prpires66/bookstore-front/blob/main/LICENSE) para obter mais detalhes.
 
 ## 🙏 Agradecimento
 
