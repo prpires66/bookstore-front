@@ -6,7 +6,7 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-![home](https://github.com/prpires66/bookstore-front/assets/4954302/f0467b5b-a6c3-423a-9dc0-f1ae8f4069c6)
+![home](https://github.com/prpires66/bookstore-front/assets/4954302/88879b68-79da-488c-b7ca-3088b91cb482)
 
 ## 🚀 Descrição
 
@@ -85,8 +85,7 @@ Para implantar esta aplicação, você pode considerar duas abordagens populares
 > Cada abordagem tem suas próprias vantagens e desvantagens, e a escolha entre elas dependerá das necessidades específicas do seu projeto, dos requisitos de escalabilidade, do orçamento e da preferência pessoal. Certifique-se de avaliar cuidadosamente cada opção antes de decidir qual é a melhor para sua aplicação.
 
 ## 📄 Licença
-
-![License: MIT](https://github.com/prpires66/bookstore-front/blob/main/LICENSE)
+![License: MIT](https://img.shields.io/github/license/prpires66/nlw-esports?style=for-the-badge)
 
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE.md](https://github.com/prpires66/bookstore-front/blob/main/README.md) para obter mais detalhes.
 
