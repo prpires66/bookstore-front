@@ -67,7 +67,7 @@ npm start
 
 5. **Utilização da API:** A API estará disponível em `http://localhost:3000` por padrão, ou na porta especificada pela variável de ambiente `PORT`. Você pode enviar requisições HTTP para as rotas especificadas abaixo.
 
-:warning: Atenção: 
+**⚠️ Atenção:** Esta aplicação requer uma conexão ativa com uma API externa para funcionar. Certifique-se de que a aplicação [back-end](https://github.com/prpires66/bookstore-api) esteja sendo executada e disponível.
 
 ## 📦 Implantação
 
