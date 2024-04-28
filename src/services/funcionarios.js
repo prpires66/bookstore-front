@@ -47,9 +47,8 @@ module.exports = class Funcionarios {
           var descricao =
             "Verifique se a API está em execução e se a variável de ambiente URL_API foi definida.";
         } else {
-          var mensagem =
-            error.response.status + " - " + error.response.data.message;
-          var descricao = error.config.url;
+      const mensagem = error.response ? error.response.status + " - " + error.response.data.message : "Erro desconhecido";
+      const descricao = error.config ? error.config.url : " ";
         }
         res.render("mensagem", {
           mensagem: mensagem,
