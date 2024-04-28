@@ -10,7 +10,7 @@
 
 ## 🚀 Descrição
 
-Este projeto faz parte das atividades práticas do módulo 2024-F2M: Node.js, do programa **Reprograme-se**. A proposta consiste em desenvolver um sistema de cadastro de livros e funcionários, dividido em duas partes:
+Este projeto faz parte das atividades práticas do módulo 2024-F2M4: Node.js, do programa **Reprograme-se**. A proposta consiste em desenvolver um sistema de cadastro de livros e funcionários, dividido em duas partes:
 
 1. **Aplicação Front-end**: Responsável pela interface do usuário, esta parte permite que os usuários visualizem, adicionem, editem e excluam informações sobre livros e funcionários de forma intuitiva e amigável. [Repositório no Github](https://github.com/prpires66/bookstore-front)
 
@@ -41,30 +41,31 @@ Além disso, você precisará de um editor de código de sua preferência, como 
 
 ## 🔧 Instalação e Uso
 
-> 1. **Clonagem do repositório:** Clone este repositório para o seu ambiente local usando o comando:
+1. **Clonagem do repositório:** Clone este repositório para o seu ambiente local usando o comando:
 
 ```
 git clone https://github.com/prpires66/bookstore-front.git
 ```
 
-> 2. **Instalação de dependências:** Navegue até o diretório do projeto e instale as dependências usando o comando:
+2. **Instalação de dependências:** Navegue até o diretório do projeto e instale as dependências usando o comando:
 
 ```
 npm install
 ```
-> 3. **Configuração do ambiente:** Antes de executar a aplicação, certifique-se de configurar as seguintes variáveis de ambiente:
+3. **Configuração do ambiente:** Antes de executar a aplicação, certifique-se de configurar as seguintes variáveis de ambiente:
 
-> - **URL_API:** URL do endpoint da API (Back-end).
+- **`URL_API`:** URL do endpoint da API (Back-end).
+- **`PORT`:** Porta em que o servidor da API será executado. Por padrão, é 3000, mas você pode definir uma porta diferente se necessário.
 
-Você pode definir essas variáveis de ambiente em um arquivo `.env` na raiz do projeto ou configurá-las diretamente no ambiente de execução, dependendo das suas preferências e ambiente de desenvolvimento.
+> Você pode definir essas variáveis de ambiente em um arquivo `.env` na raiz do projeto ou configurá-las diretamente no ambiente de execução, dependendo das suas preferências e ambiente de desenvolvimento.
 
-> 4. **Execução da Aplicação:** Inicie o servidor usando o comando:
+4. **Execução da Aplicação:** Inicie o servidor usando o comando:
 
 ```
 npm start
 ```
 
-> 5. **Utilização da Aplicação:** A aplicação estará disponível em `http://localhost:3000`.
+5. **Utilização da API:** A API estará disponível em `http://localhost:3000` por padrão, ou na porta especificada pela variável de ambiente `PORT`. Você pode enviar requisições HTTP para as rotas especificadas abaixo.
 
 ## 📦 Implantação
 
@@ -87,7 +88,7 @@ Para implantar esta aplicação, você pode considerar duas abordagens populares
 ## 📄 Licença
 ![License: MIT](https://img.shields.io/github/license/prpires66/nlw-esports?style=for-the-badge)
 
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE.md](https://github.com/prpires66/bookstore-front/blob/main/LICENSE) para obter mais detalhes.
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](https://github.com/prpires66/bookstore-front/blob/main/LICENSE) para obter mais detalhes.
 
 ## 🙏 Agradecimento
 

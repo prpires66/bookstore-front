@@ -2,6 +2,7 @@ const path = require('path');
 
 const express = require("express");
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 // Arquivos estáticos
 // app.use("/css", express.static(__dirname + "/css"));
@@ -27,4 +28,6 @@ app.use(express.json());
 
 app.use("/", routes);
 
-app.listen(3000);
+app.listen(PORT, () => {
+  console.log(`⚡️[server]: Server is running at http://localhost:${PORT}`);
+});
