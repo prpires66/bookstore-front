@@ -1,8 +1,12 @@
 const path = require("path");
+const dotenv = require("dotenv").config();
 
 const express = require("express");
+const favicon = require("express-favicon");
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+app.use(favicon(__dirname + "/public/images/favicon.png"));
 
 // Arquivos estáticos
 app.use("/static", express.static(__dirname + "/public"));
@@ -18,7 +22,7 @@ const cookieParser = require("cookie-parser");
 
 app.engine("handlebars", handlebars.engine);
 app.set("view engine", "handlebars");
-//app.set('views', './views');
+
 app.set("views", path.join(__dirname, "/src/views"));
 
 app.use(cookieParser());
