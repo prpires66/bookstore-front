@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Arquivos estáticos
-// app.use("/css", express.static(__dirname + "/css"));
+app.use("/", express.static(__dirname + "/public"));
 
 const hand = require("express-handlebars");
 const handlebars = hand.create({
