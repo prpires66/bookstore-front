@@ -6,7 +6,7 @@ const favicon = require("express-favicon");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(favicon(__dirname + "/public/images/favicon.png"));
+app.use(favicon(__dirname + "/public/img/favicon.png"));
 
 // Arquivos estáticos
 app.use("/static", express.static(__dirname + "/public"));
