@@ -5,15 +5,15 @@
     {{#each livro}}
       <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
         <center>
-          <img class="img-thumbnail rounded" src="{{this.link_imagem}}" alt="{{this.titulo}}" style="max-width: 100%; height: auto;"><br>
+          <img class="img-thumbnail rounded" src="{{this.linkImagem}}" alt="{{this.titulo}}" style="max-width: 100%; height: auto;"><br>
           <strong>{{this.titulo}}</strong><br>
           {{this.autor}} <br>
           R${{this.preco}} <br>
-          cod. Livro:{{this.id_livro}}<br>
-          <a class="text-decoration-none" href="/livros/Alterar/{{this.id_livro}}">
+          cod. Livro:{{this.idLivro}}<br>
+          <a class="text-decoration-none" href="/livros/Alterar/{{this.idLivro}}">
             <i class="bi bi-pencil-square bi-md"></i>
           </a>
-          <a class="text-decoration-none" href="/livros/Deletar/{{this.id_livro}}">
+          <a class="text-decoration-none" href="/livros/Deletar/{{this.idLivro}}">
             <i class="bi bi-trash bi-md"></i>
           </a>
         </center>

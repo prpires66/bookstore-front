@@ -72,8 +72,12 @@ npm install
 - **`PORT`:** Porta em que o servidor da API será executado. Por padrão, é 3000, mas você pode definir uma porta diferente se necessário.
 
 > [!TIP]
-> Você pode definir essas variáveis de ambiente em um arquivo `.env` na raiz do projeto ou configurá-las diretamente no ambiente de execução, dependendo das suas preferências e ambiente de desenvolvimento.
+> Você pode definir essas variáveis de ambiente em um arquivo `.env` na raiz do projeto ou configurá-las diretamente no ambiente de execução, dependendo das suas preferências e ambiente de desenvolvimento. Abaixo um exemplo de arquivo `.env`:
 
+```dotenv
+URL_API="http://localhost:4000/"
+PORT=3000
+```
 4. **Execução da Aplicação:** Inicie o servidor usando o comando:
 
 ```

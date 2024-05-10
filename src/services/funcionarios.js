@@ -174,7 +174,7 @@ module.exports = class Funcionarios {
   static async FuncionarioAlterar(req, res) {
     const token = req.cookies.token;
     let valores = req.body;
-    let id = valores.id_funcionario;
+    let id = valores.idFuncionario;
     const options = {
       url: urlAPI + "funcionarios/" + id,
       method: "PUT",

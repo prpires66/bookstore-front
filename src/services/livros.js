@@ -100,7 +100,7 @@ static async LivroAlterarForm(req, res) {
 static async LivroAlterar(req, res) {
   const token = req.cookies.token;
   let valores = req.body;
-  let id = valores.id_livro;
+  let id = valores.idLivro;
   const options = {
     url: urlAPI + "livros/" + id,
     method: "PUT",
