@@ -1,10 +1,11 @@
 # Bookstore Controle Digital (Front-end)
 
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ![home](https://github.com/prpires66/bookstore-front/assets/4954302/88879b68-79da-488c-b7ca-3088b91cb482)
 
@@ -29,7 +30,7 @@ Este projeto faz parte das atividades práticas do módulo 2024-F2M4: Node.js, d
 2. **Aplicação Back-end**: Esta parte gerencia os dados dos livros e funcionários, possibilitando a realização de operações de CRUD (Create, Read, Update, Delete) por meio de uma API, garantindo assim a integridade e segurança dos dados. [Repositório no Github](https://github.com/prpires66/bookstore-api)
 
 > [!NOTE]
-> Esta aplicação refere-se ao **item 1 (Aplicação Front-end)** e permite o gerenciamento de funcionários e livros em um sistema de livraria. Inclui funcionalidades como cadastro, listagem, atualização e exclusão de funcionários e livros.
+> Este repositório refere-se ao **item 1 (Aplicação Front-end)** e a aplicação permite o gerenciamento de funcionários e livros em um sistema de livraria. Inclui funcionalidades como cadastro, listagem, atualização e exclusão de funcionários e livros.
 
 ## ℹ️ Reprograme-se
 
@@ -42,6 +43,7 @@ Este projeto foi desenvolvido utilizando um conjunto de tecnologias modernas e p
 - **JavaScript**: Uma linguagem de programação amplamente utilizada, tanto no front-end quanto no back-end, que oferece flexibilidade e desempenho.
 - **Node.js**: Um ambiente de execução JavaScript que permite a criação de aplicativos escaláveis do lado do servidor.
 - **Express.js**: Um framework web minimalista para Node.js que simplifica o desenvolvimento de APIs e aplicativos web, fornecendo uma série de recursos úteis e uma estrutura organizada.
+- **Bootstrap**: Um framework front-end que facilita o desenvolvimento de interfaces responsivas e atraentes, fornecendo componentes de interface de usuário prontos para uso e estilos baseados em CSS e JavaScript.
 
 ## 💻 Pré-requisitos
 
@@ -117,6 +119,6 @@ Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](https://gith
 
 ## 🙏 Agradecimentos
 
-> - Agradeço ao IFES - Instituto Federal do Espírito Santo pelo apoio através do projeto Reprograme-se, assim como professores e colegas.
-> - Contribuições e sugestões são sempre bem-vindas.
-> - Muito obrigado! :blue_heart:
+ - Agradeço ao IFES - Instituto Federal do Espírito Santo pelo apoio através do projeto Reprograme-se, assim como professores e colegas.
+ - Contribuições e sugestões são sempre bem-vindas.
+ - Muito obrigado! :blue_heart:
