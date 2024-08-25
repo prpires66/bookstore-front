@@ -19,8 +19,9 @@ module.exports = class Funcionarios {
       url: urlAPI + "login",
       method: "POST",
       headers: {
-        "x-access-token": token,
+        Authorization: `Bearer ${token}`,
       },
+
       data: valores,
     };
     axios(options)
@@ -47,8 +48,10 @@ module.exports = class Funcionarios {
           var descricao =
             "Verifique se a API está em execução e se a variável de ambiente URL_API foi definida.";
         } else {
-      var mensagem = error.response ? error.response.status + " - " + error.response.data.message : "Erro desconhecido";
-      var descricao = error.config ? error.config.url : " ";
+          var mensagem = error.response
+            ? error.response.status + " - " + error.response.data.message
+            : "Erro desconhecido";
+          var descricao = error.config ? error.config.url : " ";
         }
         res.render("mensagem", {
           mensagem: mensagem,
@@ -74,8 +77,9 @@ module.exports = class Funcionarios {
       url: urlAPI + "funcionarios",
       method: "POST",
       headers: {
-        "x-access-token": token,
+        Authorization: `Bearer ${token}`,
       },
+
       data: valores,
     };
     axios(options)
@@ -113,8 +117,9 @@ module.exports = class Funcionarios {
       url: urlAPI + "funcionarios",
       method: "GET",
       headers: {
-        "x-access-token": token,
+        Authorization: `Bearer ${token}`,
       },
+
       data: {},
     };
     axios(options)
@@ -146,8 +151,9 @@ module.exports = class Funcionarios {
       url: urlAPI + "funcionarios/" + id,
       method: "GET",
       headers: {
-        "x-access-token": token,
+        Authorization: `Bearer ${token}`,
       },
+
       data: {},
     };
     axios(options)
@@ -179,8 +185,9 @@ module.exports = class Funcionarios {
       url: urlAPI + "funcionarios/" + id,
       method: "PUT",
       headers: {
-        "x-access-token": token,
+        Authorization: `Bearer ${token}`,
       },
+
       data: valores,
     };
     axios(options)
@@ -207,8 +214,9 @@ module.exports = class Funcionarios {
       url: urlAPI + "funcionarios/" + id,
       method: "DELETE",
       headers: {
-        "x-access-token": token,
+        Authorization: `Bearer ${token}`,
       },
+
       data: {},
     };
     axios(options)
