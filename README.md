@@ -71,7 +71,7 @@ npm install
 3. **Configuração do ambiente:** Antes de executar a aplicação, certifique-se de configurar as seguintes variáveis de ambiente:
 
 - **`URL_API`:** URL do endpoint da API (Back-end).
-- **`PORT`:** Porta em que o servidor da API será executado. Por padrão, é 3000, mas você pode definir uma porta diferente se necessário.
+- **`PORT`:** Porta em que o servidor da aplicação será executado. Por padrão, é 3000, mas você pode definir uma porta diferente se necessário.
 
 > [!TIP]
 > Você pode definir essas variáveis de ambiente em um arquivo `.env` na raiz do projeto ou configurá-las diretamente no ambiente de execução, dependendo das suas preferências e ambiente de desenvolvimento. Abaixo um exemplo de arquivo `.env`:
@@ -86,7 +86,7 @@ PORT=3000
 npm start
 ```
 
-5. **Utilização da API:** A API estará disponível em `http://localhost:3000` por padrão, ou na porta especificada pela variável de ambiente `PORT`. Você pode enviar requisições HTTP para as rotas especificadas abaixo.
+5. **Utilização da Aplicação:** A Aplicação estará disponível em `http://localhost:3000` por padrão, ou na porta especificada pela variável de ambiente `PORT`. Você pode acessar a página web da aplicação utilizando o navegador da sua preferência.
 
 > [!IMPORTANT]
 > Esta aplicação requer uma conexão ativa com uma API externa para funcionar. Certifique-se de que a aplicação [back-end](https://github.com/prpires66/bookstore-api) esteja sendo executada e disponível.
